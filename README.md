@@ -4,26 +4,27 @@ This project consists of two main components: a C program (main.c) that logs key
 This project consists of two main components: a C program (main.c) that logs keystrokes and a Python script (SendEmail.pyw) that periodically emails the log file and a screenshot.
 
 # Table of Contents
-> Overview
-> Files
-> Dependencies
-> Setup
-> Usage
-> Security Notice
+1. Overview
+2. Files
+3. Dependencies
+4. Setup
+5. Usage
+6. Security Notice
 # Overview
 The keylogger listens for keyboard events and writes the keys pressed to a file. Additionally, it periodically emails this log file along with a screenshot of the current screen to a specified email address.
 
 # Files
-> main.c: The main C program that sets up a keyboard hook to log keystrokes and launches a background thread to send emails.
-> SendEmail.pyw: A Python script that sends an email with the log file and a screenshot as attachments.
+1. main.c: The main C program that sets up a keyboard hook to log keystrokes and launches a background thread to send emails.
+2. SendEmail.pyw: A Python script that sends an email with the log file and a screenshot as attachments.
 # Dependencies
-> Windows OS (for the keyboard hook and screenshot functionality)
-> Python 3.x
-> Python packages:
-> smtplib
-> dotenv
-> Pillow
-> A Gmail account for sending emails
+1. Windows OS (for the keyboard hook and screenshot functionality)
+2. Python 3.x
+3. Python packages:
+4. smtplib
+5. dotenv
+6. Pillow
+7. A Gmail account for sending emails
+   
 # Setup
 > Compile main.c:
 
