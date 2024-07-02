@@ -47,7 +47,7 @@ The keylogger listens for keyboard events and writes the keys pressed to a file.
 ### Usage
 6. Run the keylogger:
    ```bash
-   ./keylogger
+   ./main
 
 - The program will start logging keystrokes and sending emails every 10 seconds.
 
