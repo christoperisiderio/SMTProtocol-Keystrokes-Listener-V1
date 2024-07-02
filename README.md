@@ -1,5 +1,7 @@
 # SMTProtocol-Keystrokes Listener-V1
-This project consists of two main components: a C program (main.c) that logs keystrokes and a Python script (SendEmail.pyw) that periodically emails the log file and a screenshot.
+This simple project consists of two main components: a C program (main.c) that logs keystrokes and a Python script (SendEmail.pyw) that periodically emails the log file and a screenshot.
+First time learning about socket, protocols, windows HHOOK, threading, etc.
+Feel free to give an advice and insights for this project.
 
 # Table of Contents
 1. Overview
