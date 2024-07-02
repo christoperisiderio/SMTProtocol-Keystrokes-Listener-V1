@@ -1,8 +1,6 @@
 # SMTProtocol-Keystrokes Listener-V1
 This project consists of two main components: a C program (main.c) that logs keystrokes and a Python script (SendEmail.pyw) that periodically emails the log file and a screenshot.
 
-This project consists of two main components: a C program (main.c) that logs keystrokes and a Python script (SendEmail.pyw) that periodically emails the log file and a screenshot.
-
 # Table of Contents
 1. Overview
 2. Files
@@ -33,11 +31,16 @@ The keylogger listens for keyboard events and writes the keys pressed to a file.
 # Prepare the Python environment:
 > Install required Python packages:
 # bash
-1. pip install smtplib python-dotenv Pillow
-2.  Create a .env file in the same directory as SendEmail.pyw with your Gmail credentials:
-3.  makefile (optional, but recommended)
-4.  GMAIL_EMAIL=your_email@gmail.com
-5.  GMAIL_APP_PASSWORD=your_app_password
+> pip install smtplib python-dotenv Pillow
+
+> Create a .env file in the same directory as SendEmail.pyw with your Gmail credentials:
+
+> makefile (optional, but recommended)
+
+> GMAIL_EMAIL=your_email@gmail.com
+
+> GMAIL_APP_PASSWORD=your_app_password
+
 # Usage
 > Run the keylogger:
 
