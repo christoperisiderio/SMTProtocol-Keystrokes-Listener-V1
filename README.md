@@ -28,7 +28,8 @@ The keylogger listens for keyboard events and writes the keys pressed to a file.
 
 # bash
 > gcc -o keylogger main.c -luser32
-If you want to run it in background without showing the console use this instead:
+
+NOTE: If you want to run it in background without showing the console use this instead:
 
 >  gcc -o main.exe main.c -luser32 -lgdi32 -lws2_32 -lwinmm -mwindows
  
